@@ -1,0 +1,8 @@
+# Ignore every single file in the webdev folder
+*
+
+# But do NOT ignore the folder where my real projects are
+!js projects/
+
+# And do NOT ignore this file itself
+!.gitignore
