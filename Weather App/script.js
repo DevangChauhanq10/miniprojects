@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       showError();
     }
   });
+  //
   function displayWeatherData(data) {
     const { name, main, weather } = data;
 
@@ -33,3 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     weatherInfo.classList.remove("hidden");
     errorMessage.classList.add("hidden");
   }
+ function showError() {
+    weatherInfo.classList.add("hidden");
+    errorMessage.classList.remove("hidden");
+  }
+});
