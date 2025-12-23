@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const weatherData = await fetchWeatherData(city);
       displayWeatherData(weatherData);
     } catch (error) {
-      
+      showError();
     }
   });
   function displayWeatherData(data) {
