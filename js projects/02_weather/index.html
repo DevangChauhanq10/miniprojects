@@ -17,14 +17,16 @@
       <h1>Weather App</h1>
       <div class="input-container">
         <input type="text" id="city-input" placeholder="Enter city name" />
-        <button id="get-weather-button">Get Weather</button>
+        <button id="get-weather-button" aria-label="Search">Search</button>
       </div>
       <div id="weather-info" class="hidden">
         <h2 id="city-name"></h2>
         <p id="temperature"></p>
         <p id="description"></p>
       </div>
-      <p id="error-message" class="hidden">City not found. Please try again.</p>
+      <p id="error-message" class="hidden">
+        City not found! Incorrect city name or invalid OpenWeather API key
+      </p>
     </div>
     <script src="script.js"></script>
   </body>
