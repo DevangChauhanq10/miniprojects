@@ -19,19 +19,19 @@ To get this project running locally, you must provide your own API key from Open
 
 Get an API Key:
 
-Go to OpenWeatherMap.
+• Go to OpenWeatherMap.
 
-Sign up for a free account.
+• Sign up for a free account.
 
-Navigate to your "API Keys" tab and copy your unique key.
+• Navigate to your "API Keys" tab and copy your unique key.
 
 Configure the App:
 
-Open the script.js (or your main JS file).
+• Open the script.js (or your main JS file).
 
-Locate the variable for the API key.
+• Locate the variable for the API key.
 
-Replace the placeholder with your actual key:
+• Replace the placeholder with your actual key:
 
 JavaScript: 
 
