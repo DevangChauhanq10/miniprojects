@@ -23,4 +23,4 @@ Locate the variable for the API key.
 Replace the placeholder with your actual key:
 
 JavaScript:
-const apiKey = "YOUR_OPENWEATHER_API_KEY_HERE";
+ const API_KEY = "Enter your OpenWeather API key";
